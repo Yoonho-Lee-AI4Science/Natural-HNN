@@ -3,7 +3,7 @@
 Before training, check whether datasets are well prepared. 
 We recommend reading every README.md files inside dataset directory and its subdirectories.
 We provide preprocessed cancer subtype datasets.
-To use preprocessed cancer subtype datasets, you need to unzip dataset/{cancer_name}/raw/npy_files.zip and place the contents under dataset/{cancer_name}/raw directory
+To use preprocessed cancer subtype datasets, you need to unzip dataset/{cancer_name}/raw/npy_files.zip and place the contents under dataset/{cancer_name}/raw directory.
 If you want to manually preprocess data, read dataset/cancer_subtype/src/README.md file.
 Note that manually pre-processed result can be slightly different from the one we used, depending on the time at which the data or additional files are downloaded.
 Most of the preprocessing codes were adopted from Pathformer.([paper](https://www.biorxiv.org/content/10.1101/2023.05.23.541554v2), [github](https://github.com/lulab/Pathformer))  
