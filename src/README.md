@@ -1,6 +1,12 @@
 # Models
 ## Note
-Before training, check whether datasets are well prepared. Read README.md files inside dataset directory `recursively`(i.e. need to check subdirectories). As I have described there, although we have uploaded all preprocessed files(to private repository), some npy files may not be correctly provided in anonymous github due to the `size limit set by anonymous github`. If you are accessing through anonymous github but want to run models on the cancer subtype datasets, you need to manually pre-process datasets by carefully following the procedures described in README.md files inside dataset directory. The manually pre-processed result can be slightly different from the one we used depending on the time at which the data or additional files are downloaded (Although we hope not :disappointed_relieved: . )    
+Before training, check whether datasets are well prepared. 
+We recommend reading every README.md files inside dataset directory and its subdirectories.
+We provide preprocessed cancer subtype datasets.
+To use preprocessed cancer subtype datasets, you need to unzip dataset/{cancer_name}/raw/npy_files.zip and place the contents under dataset/{cancer_name}/raw directory
+If you want to manually preprocess data, read dataset/cancer_subtype/src/README.md file.
+Note that manually pre-processed result can be slightly different from the one we used, depending on the time at which the data or additional files are downloaded.
+Most of the preprocessing codes were adopted from Pathformer.([paper](https://www.biorxiv.org/content/10.1101/2023.05.23.541554v2), [github](https://github.com/lulab/Pathformer))  
 
 Official name of our model is `Natural-HNN`. However, it is named `disen_hgnn` in our implementation(code). For training, use `natural_hnn_model` environment.  
 

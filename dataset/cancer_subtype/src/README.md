@@ -5,9 +5,6 @@ This README.md file describes the procedure of downloading and processing data f
 Most of our downloading & preprocessing code were adopted from Pathformer.([paper](https://www.biorxiv.org/content/10.1101/2023.05.23.541554v2), [github](https://github.com/lulab/Pathformer))  
 Note that preprocessing step can take several hours per data.  
 Since it takes too long time ( maybe ~10 hours per cancer) for preprocessing, we also provide pre-processed data since the result can be different by the time at which the data is downloaded. If you just use our pre-processed data (for reproducing result) , you do not need to download or process anything. For pre-processed npy files, you need to unzip npy_files.zip file and place the contents under the {cancer_name}/raw/ directory.  
-```
-Unfortunately, anonymous github will not correctly provide some pre-processed files (npy files) due to the limit of size.    
-```    
 
 ### download data
 First, you need to download necessary files.  

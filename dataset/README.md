@@ -8,9 +8,6 @@ Most of our downloading & preprocessing code were adopted from Pathformer([paper
 We provide pre-processing code in "Natural-HNN/dataset/cancer_subtype/" directory.  
 Note that preprocessing step can take several hours.  
 Since it takes too long time to perform preprocessing, we also provide pre-processed files. Pre-processed files are contained in the direct subdirectory of current directory with the cancer name. ( ex : "Natural-HNN/dataset/brca" ). If you just use our pre-processed data (for reproducing result) , you do not need to download with R or process anything. For pre-processed npy files, you need to unzip npy_files.zip file and place the contents under the {cancer_name}/raw/ directory.    
-```
-Unfortunately, anonymous github will not correctly provide some pre-processed files (npy files) due to the limit of size.    
-```
 For more details, read the description in "Natural-HNN/dataset/cancer_subtype/src/README.md"
 
 
