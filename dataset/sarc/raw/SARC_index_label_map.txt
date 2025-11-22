@@ -1,0 +1,4 @@
+(DDLPS) dedifferentiated liposarcoma
+(LMS) leiomyosarcoma
+(MPS or UPS) myxofibrosarcoma, undifferentiated pleomorphic sarcoma
+others

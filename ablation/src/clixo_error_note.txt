@@ -1,0 +1,3 @@
+If you have problem like "libstdc++.so.6: version `GLIBCXX_3.4.20' not found (required by ./clixo)" happens, do the following
+
+export LD_LIBRARY_PATH=/usr/local/lib:/usr/lib:/usr/local/lib64:/usr/lib64

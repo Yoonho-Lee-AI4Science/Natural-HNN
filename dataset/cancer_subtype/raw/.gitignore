@@ -1,0 +1,11 @@
+*.csv
+*.RData
+TCGA-*/**/*
+TCGA-*/*
+MANIFEST.txt
+go-basic.obo
+snp6.na35.remap.hg38.subset.txt.gz
+snp6.na35.remap.hg38.subset.marker_file.txt
+HM450.hg38.manifest.gencode.v36.tsv
+Homo_sapiens.GRCh38.91.chr.gtf
+goa_human.gaf
