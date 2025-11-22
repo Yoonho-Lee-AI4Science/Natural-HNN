@@ -1,11 +1,13 @@
 # Natural-HNN
 
 ## Note
-Official repository for `Disentangling Hyperedges through the Lens of Category Theory`, which is accepted to `NeurIPS 2025`.
+This is the official repository for `Disentangling Hyperedges through the Lens of Category Theory`, which is accepted to `NeurIPS 2025`.
+
+Note that, the paper `Capturing functional context of genetic pathways through hyperedge disentanglement` (accepted to ICLR 2025 workshop MLGenX) also uses the same code provided in this repository.
 
 Official name of our model is `Natural-HNN`. However, it is named `disen_hgnn` in our implementation(code).
 
-If you use our pre-processed data files or our model, please cite our paper.
+If you use our preprocessed data files or our model, please cite our paper.
 
 ## Environment
 
