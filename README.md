@@ -1,10 +1,9 @@
 # Natural-HNN
 
-## Citation
-If you use our pre-processed data files or our model, please cite our paper.
-
 ## Note
+Official implementation for `Disentangling Hyperedges through the Lens of Category Theory`, which is accepted to NeurIPS 2025.
 Official name of our model is `Natural-HNN`. However, it is named `disen_hgnn` in our implementation(code).
+If you use our pre-processed data files or our model, please cite our paper.
 
 ## Environment
 
