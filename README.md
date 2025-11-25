@@ -1,4 +1,4 @@
-# Natural-HNN
+# Natural-HNN : Disentangling Hyperedges through the Lens of Category Theory
 
 ## Note
 This is the official repository for `Disentangling Hyperedges through the Lens of Category Theory`, which is accepted to `NeurIPS 2025`.
